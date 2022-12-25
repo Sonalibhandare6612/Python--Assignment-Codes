@@ -1,4 +1,10 @@
-# Q1 Pattern
+# Q1 Pattern 
+for x in range(4):
+    n = x + 1
+    for y in range(4):
+        print(n, end=" ")
+        n = n + 3
+    print()
 
 # Q2 Pattern
 rows = int(input("Enter no of rows :"))
@@ -63,6 +69,23 @@ for x in range(rows):
             num = num - 1
     print()
 
+    
+ # Q6 Pattern 
+rows = int(input("Enter no. of rows :"))
+num = 65
+n = 1
+for x in range(rows):
+    for y in range(x + 1):
+        if y % 2 == 0:
+            data = chr(num)
+            print(data,end=" ")
+
+
+        else:
+            print(n,end=" ")
+    num = num + 1
+    n = n + 1
+    print()
  # Q7 Pattern
 rows = int(input("Enter no of rows :"))
 num = 9
