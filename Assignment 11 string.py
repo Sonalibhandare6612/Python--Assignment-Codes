@@ -1,6 +1,12 @@
 # Q1 WAP to search given string in array of string.Print index if string is found.
 import numpy
-arr = numpy.array(["Riya","Ajay","Priya","Raj","Isha"])
+num = int(input("Enter no. of element:"))
+m = []
+for i in range(num):
+    ele = input("Enter string : ")
+    m.append(ele)
+arr = numpy.array(m)
+print(arr)
 inp = input("Enter string to compare :")
 flag = 0
 for i in range(len(arr)):
@@ -87,9 +93,16 @@ print(strs)
 # length of string.
 
 import numpy
-arr = numpy.array(["Raj","Yami","Riya","Ajay","Seeta", "Jay"])
+num = int(input("Enter no. of element:"))
+m = []
+for i in range(num):
+    ele = input("Enter string : ")
+    m.append(ele)
+arr = numpy.array(m)
+print(arr)
 arr2 = (sorted(arr,key=len))
 print(arr2)
+
 
 
 
